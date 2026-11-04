@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Julia Iuga · Tools and resources</title>
+<meta name="description" content="Public tools and presentations by Julia Iuga, a product designer who designs in code.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&family=Urbanist:wght@500;600;700&display=swap">
+<style>
+  :root { --bg: #fbfaf8; --card: #ffffff; --line: #e9e4f3; --ink: #181523; --muted: #5f5b70; --purple: #8855ff; }
+  * { box-sizing: border-box; margin: 0; }
+  body { min-height: 100vh; background: var(--bg); color: var(--ink); font: 500 17px/1.55 Urbanist, system-ui, sans-serif;
+    background-image: radial-gradient(circle, #e3ddf0 1.2px, transparent 1.4px); background-size: 26px 26px; }
+  main { max-width: 720px; margin: 0 auto; padding: 80px 24px; display: grid; gap: 32px; }
+  .eyebrow { font-weight: 600; font-size: 15px; color: var(--purple); }
+  h1 { margin-top: 8px; font: 700 44px/1.1 "Inria Serif", Georgia, serif; }
+  .lede { margin-top: 12px; color: var(--muted); }
+  ul { list-style: none; padding: 0; display: grid; gap: 14px; }
+  a.tool { display: grid; gap: 4px; padding: 20px 22px; background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    color: inherit; text-decoration: none; box-shadow: 0 4px 14px rgb(24 21 35 / .04); transition: border-color .15s, transform .15s; }
+  a.tool:hover { border-color: var(--purple); transform: translateY(-1px); }
+  a.tool:focus-visible { outline: 2px solid var(--purple); outline-offset: 3px; }
+  .tool b { font-size: 19px; font-weight: 700; }
+  .tool b::after { content: " →"; color: var(--purple); }
+  .tool span { color: var(--muted); }
+  .back { color: var(--purple); font-weight: 600; text-decoration: none; }
+  .back:hover { text-decoration: underline; text-underline-offset: 4px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">Tools and resources</div>
+    <h1>Things I've built for design teams</h1>
+    <p class="lede">Small tools and presentations to help teams design and build better. Each one runs in your browser.</p>
+  </header>
+
+  <ul>
+    <li>
+      <a class="tool" href="https://canvas-to-code.github.io/design-review-annotator/">
+        <b>Redline: design review annotator</b>
+        <span>Mark up a UI with numbered notes to give clear, visual design feedback.</span>
+      </a>
+    </li>
+    <li>
+      <a class="tool" href="https://canvas-to-code.github.io/web-summit-2026/?tab=summary">
+        <b>Web Summit Vancouver 2026</b>
+        <span>Conference insights: topics, session highlights and speakers, and the AI tools I used to capture them.</span>
+      </a>
+    </li>
+  </ul>
+
+  <a class="back" href="https://www.juliaiuga.com/">← Julia Iuga's portfolio</a>
+</main>
+</body>
+</html>
